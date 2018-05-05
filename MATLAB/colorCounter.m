@@ -3,6 +3,8 @@ close all;
 clc;
 
 
+% This script calculate the dominant color from 8 distinct colors in any RGB images 
+
 filename = 'all.jpg';     % File name or location
 original = imread(filename);% Read the RGB image
 % original = imcomplement(original);
